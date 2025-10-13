@@ -11,44 +11,243 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #3c3c3c;
+    background-color: #222222;
     padding: 20px;
     color: white;
 }
 
 header {
-    background: #35424a;
+
     color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
+    display: flex;
+    border-bottom: solid 1px rgb(173, 173, 173);
     margin-bottom: 20px;
-    border: #a0c3d9 3px solid;
-    
+    padding-bottom: 10px;
 }
 
+.header-left{
+width: 40%;
+
+}
+
+
+.title-header-left{
+    color: rgb(145, 246, 255);
+    
+}
+.university-header-left{
+    color: #b8b8b8;
+}
+.header-right{
+   
+width: 60%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+header p{
+    font-size: 35px;
+    letter-spacing: 6px;
+    font-weight: bold;
+  
+}
 header nav a {
     color: #ffffff;
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
+}
+header nav a:hover {
+    border-bottom: solid 1px white;
+    
 }
 
 h1, h2 {
      font-family: "Exo 2", sans-serif;
 }
-p {
-   font-family: "Amatic SC", sans-serif;
-
-    font-size: 24px;
-}
 
 #foto-perfil{
-    
-    width: 200px;
+    width: 150px;
+    border-radius: 10px;
     
 }
 
+section.about-me{
+
+    padding: 10px;
+    display: flex;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
 article {
-    border: solid black 2px;
+    
     width: 30%;
     float: left;
+}
+
+.about-me-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-me-right{
+    width: 50%;
+    padding-left: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.education{
+    margin-top: 10px;
+}
+
+.about-me-left-left{
+    width: 50%;
+    text-align: center;
+}
+
+.about-me-left-right{
+    width: 50%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.project{
+    width: 50%;
+  
+}
+
+.experience-top{
+    display: flex;
+   height: 300px;
+}
+.experience-top-left{
+
+    width: 50%;
+   
+}
+.experience-top-left-name{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(145, 246, 255);
+}
+.experience-top-left-description{
+    padding: 10px;
+    text-align: justify;
+}
+.experience-top-right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.experience-top-right-image{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.experience-top-right-image img{
+    width: 70%;
+  
+    
+}
+.experience-bottom{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.experience-bottom-left{
+    width: 50%;
+}
+
+.experience-bottom-left-tech{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.experience-bottom-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.experience-bottom-right button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(145, 246, 255);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#contact{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(60, 79, 79);
+    border-radius: 10px;
+}
+
+#contact input[type="text"]{
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact input[type="email"]{
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#contact textarea{
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#contact button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(145, 246, 255);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fields{
+    clear: both;
+    padding-top: 20px;
 }

@@ -7,93 +7,294 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+     <script src="https://kit.fontawesome.com/4ae47f0f14.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
+
     <header>
-        <h1>
-            Portafolio Profesional 2025
-        </h1>
-        <h2> Henrry Misael Pech Pool</h2>
-        <h3> Universidad Tecnológica de Cancún</h3>
-        <p>Desarrollador FrontEnd </p>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contacto</a>
-            <a href="#">Experiencia</a>
-        </nav>
+        <div class="header-left">
+            <h1 class="title-header-left">
+                Portafolio Profesional 2025
+            </h1>
+            <h2> Henrry Misael Pech Pool</h2>
+            <h3 class="university-header-left"> Universidad Tecnológica de Cancún</h3>
+        </div>
+        <div class="header-right">
+            <p>Desarrollador FrontEnd </p>
+            <nav>
+
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+                <a href="#">Experiencia</a>
+            </nav>
+        </div>
+
+
     </header>
 
     <main>
 
-        <section>
-            <h2>Sobre mí</h2>
-            <mark>Henrrucho</mark>
-            <p>
-                Soy un desarrollador FrontEnd con experiencia en la creación de sitios web atractivos y funcionales. Me
-                especializo en HTML, CSS y JavaScript para ofrecer soluciones innovadoras y adaptadas a las necesidades
-                de mis clientes.
-            </p>
+        <section class="about-me">
+            <div class="about-me-left">
+                <div class="about-me-left-left">
+                    <img src="images/Foto-Perfil.jpg" alt="Imagen de Henrry Misael Pech Pool" id="foto-perfil">
 
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque excepturi repellendus natus fugiat
-                reprehenderit sint aut modi nulla architecto labore in dolorem delectus obcaecati voluptate minima
-                necessitatibus voluptatibus, consequuntur debitis.
-            </p>
-            <strong> Especialidad: Tecnologías de la Información</strong>
+                </div>
+                <div class="about-me-left-right">
+                    <h3>Henrrucho</h3>
+                    <strong> Especialidad: Tecnologías de la Información</strong>
 
-            <p>Mi Frase Favorita es:</p>
-            <small><em>Primero resuelvo</em> y luego codifico</small>
-            <img src="images/Foto-Perfil.jpg" alt="Imagen de Henrry Misael Pech Pool" id="foto-perfil">
-            <aside>
-                <h3> Cursando Actualmente la carrera de Licenciatura en Ingenieria de Tecnologias de Informacion e
-                    Innovacion Digital</h3>
-                        
-            </aside>
+
+
+                    <small><em>Primero resuelvo</em> y luego codifico</small>
+                </div>
+
+
+
+            </div>
+            <div class="about-me-right">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy un desarrollador FrontEnd con experiencia en la creación de sitios web atractivos y funcionales.
+                    Me
+                    especializo en HTML, CSS y JavaScript para ofrecer soluciones innovadoras y adaptadas a las
+                    necesidades
+                    de mis clientes.
+                </p>
+                <aside class="education">
+                    <h3> Cursando Actualmente la carrera de Licenciatura en Ingenieria de Tecnologias de Informacion e
+                        Innovacion Digital</h3>
+                            
+                </aside>
+            </div>
+
+
+
+
+
         </section>
-        <section>
-            <h3>
-                Experiencia Profesional
-            </h3>
-            <article>
-                <p>Proyecto Integrador</p>
-                <h5> Lorem Ipsum</h5>
-                <time datetime="2025-05">Mayo 2025 - </time> <time datetime:"2025-07">Julio 2025</time>
-                <ul>
-                    <li>
-                        Tecnologias .NET
-                    </li>
-                    <li> Trabajo en equipo </li>
-                    <li> GitHub</li>
-                </ul>
+        <h3>
+            Experiencia Profesional
+
+        </h3>
+        <section class="experience" id="experience">
+
+            <article class="project">
+                <div class="experience-top">
+                    <div class="experience-top-left">
+                        <div class="experience-top-left-name">
+                            <p>Proyecto Integrador</p>
+
+                        </div>
+                        <div class="experience-top-left-description">
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores provident dolorem
+                                tempora. Nam excepturi magni ullam cupiditate fuga dolorem exercitationem cum.</p>
+                        </div>
+
+                    </div>
+                    <div class="experience-top-right">
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="experience-bottom">
+                    <div class="experience-bottom-left">
+                        <div class="experience-bottom-left-tech">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                    </div>
+                    <div class="experience-bottom-right">
+                        <button> Ver Más</button>
+                    </div>
+                </div>
+
+
             </article>
-            <article>
-                <p>Proyecto Integrador</p>
-                <h5> Lorem Ipsum</h5>
-                <time datetime="2025-05">Mayo 2025 - </time> <time datetime:"2025-07">Julio 2025</time>
-                <ul>
-                    <li>
-                        Tecnologias .NET
-                    </li>
-                    <li> Trabajo en equipo </li>
-                    <li> GitHub</li>
-                </ul>
+            <article class="project">
+                <div class="experience-top">
+                    <div class="experience-top-left">
+                        <div class="experience-top-left-name">
+                            <p>Proyecto Integrador</p>
+
+                        </div>
+                        <div class="experience-top-left-description">
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores provident dolorem
+                                tempora. Nam excepturi magni ullam cupiditate fuga dolorem exercitationem cum.</p>
+                        </div>
+
+                    </div>
+                    <div class="experience-top-right">
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="experience-bottom">
+                    <div class="experience-bottom-left">
+                        <div class="experience-bottom-left-tech">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                    </div>
+                    <div class="experience-bottom-right">
+                        <button> Ver Más</button>
+                    </div>
+                </div>
+
+
             </article>
-            <article>
-                <p>Proyecto Integrador</p>
-                <h5> Lorem Ipsum</h5>
-                <time datetime="2025-05">Mayo 2025 - </time> <time datetime:"2025-07">Julio 2025</time>
-                <ul>
-                    <li>
-                        Tecnologias .NET
-                    </li>
-                    <li> Trabajo en equipo </li>
-                    <li> GitHub</li>
-                </ul>
+            <article class="project">
+                <div class="experience-top">
+                    <div class="experience-top-left">
+                        <div class="experience-top-left-name">
+                            <p>Proyecto Integrador</p>
+
+                        </div>
+                        <div class="experience-top-left-description">
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores provident dolorem
+                                tempora. Nam excepturi magni ullam cupiditate fuga dolorem exercitationem cum.</p>
+                        </div>
+
+                    </div>
+                    <div class="experience-top-right">
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="experience-bottom">
+                    <div class="experience-bottom-left">
+                        <div class="experience-bottom-left-tech">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                    </div>
+                    <div class="experience-bottom-right">
+                        <button> Ver Más</button>
+                    </div>
+                </div>
+
+
             </article>
-                  
+            <article class="project">
+                <div class="experience-top">
+                    <div class="experience-top-left">
+                        <div class="experience-top-left-name">
+                            <p>Proyecto Integrador</p>
+
+                        </div>
+                        <div class="experience-top-left-description">
+                            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores provident dolorem
+                                tempora. Nam excepturi magni ullam cupiditate fuga dolorem exercitationem cum.</p>
+                        </div>
+
+                    </div>
+                    <div class="experience-top-right">
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+                        <div class="experience-top-right-image">
+                            <img src="images/img.jpg" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="experience-bottom">
+                    <div class="experience-bottom-left">
+                        <div class="experience-bottom-left-tech">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                    </div>
+                    <div class="experience-bottom-right">
+                        <button> Ver Más</button>
+                    </div>
+                </div>
+
+
+            </article>
+        </section>
+        <section id="habilities">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML
+                    <progress max="100" value="80"></progress>
+                </li>
+
+                <li>CSS
+                    <progress max="100" value="70"></progress>
+                </li>
+                <li>JavaScript
+                    <progress max="100" value="60"></progress>
+                </li>
+                <li>React
+                    <progress max="100" value="50"></progress>
+                </li>
+                <li>Git y GitHub
+                    <progress max="100" value="70"></progress>
+                </li>
+                <li>Diseño Responsivo
+                    <progress max="100" value="80"></progress>
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="contact">
+            <h3>Contactame</h3>
+            <form action="">
+                <div class="fields">
+                    <label>
+                        Nombre:
+                    </label>
+                    <input type="text" placeholder="Henrry Pech">
+
+                </div>
+                <div class="fields">
+                    <label>
+                        Email:
+                    </label>
+                    <input type="email" placeholder="tucorreo@direccion.com">
+                </div>
+                <div class="fields">
+                    <label>
+                        Mensaje:
+                    </label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea>
+                </div>
+                <div class="fields">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+
         </section>
 
 
