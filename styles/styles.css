@@ -205,6 +205,16 @@ article {
     cursor: pointer;
 }
 
+#habilities{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(60, 79, 79);
+    border-radius: 10px;
+}
+#habilities ul{
+    list-style: none;
+    padding-left: 20px;
+}
 
 #contact{
     margin-top: 20px;
@@ -248,6 +258,16 @@ article {
 }
 
 .fields{
-    clear: both;
-    padding-top: 20px;
+   display: flex;
+   margin-bottom: 20px;
+}
+.fields label{
+    width :20%;
+    font-weight: bold;
+}
+
+.fields-checkbox{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }

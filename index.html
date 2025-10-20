@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-     <script src="https://kit.fontawesome.com/4ae47f0f14.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4ae47f0f14.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
@@ -291,8 +291,54 @@
                     <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui..."></textarea>
                 </div>
                 <div class="fields">
+                    <label for="">Motivo</label>
+                    <select name="" id="">
+                        <option value="">-- Selecciona un motivo --</option>
+                        <option value="proyecto">Proyecto</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="fields">
+                    <label for=""> Fecha </label>
+                    <input type="date">
+                </div>
+                <div class="fields">
+                    <label>
+                        Modo de contacto preferido:
+                    </label>
+                    <div class="fields-checkbox">
+                        <input type="checkbox">
+                        <p> Email </p>
+                    </div>
+                    <div class="fields-checkbox">
+                        <input type="checkbox">
+                        <p> Telefono </p>
+                    </div>
+
+
+                </div>
+                <div class="fields">
+                    <label for="">
+                        ¿Es cliente?
+                    </label>
+                    <div class="fields-checkbox">
+                        <input type="radio" name="cliente" value="si"> Si
+                    </div>
+                    <div  class="fiels-checkbox">
+                        <input type="radio" name="cliente" value="no"> No
+                    </div>
+
+
+                </div>
+                <div class="fields">
+                    <label for="">Numero de empleados</label>
+                    <input type="number">
+                </div>
+                <div class="fields">
                     <button type="submit">Enviar</button>
                 </div>
+
             </form>
 
         </section>
