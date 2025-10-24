@@ -78,7 +78,7 @@ section.about-me{
 
     padding: 10px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     padding-right: 100px;
 }
 article {
@@ -125,6 +125,8 @@ article {
 
 .project{
     width: 50%;
+    margin-bottom: 100px;
+  
   
 }
 
@@ -164,9 +166,17 @@ article {
 }
 .experience-top-right-image img{
     width: 70%;
+    border-radius: 20px;
   
     
 }
+.experience-top-right-image img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+ 
+}
+
+
 .experience-bottom{
     width: 100%;
     height: 50px;
@@ -180,6 +190,7 @@ article {
 }
 
 .experience-bottom-left-tech{
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,10 +217,17 @@ article {
 }
 
 #habilities{
+   
     margin-top: 20px;
     padding: 10px;
     background-color: rgb(60, 79, 79);
     border-radius: 10px;
+}
+#habilities progress{
+    width: 50%;
+    height: 20px;
+    margin-left: 20px;
+  
 }
 #habilities ul{
     list-style: none;
@@ -217,14 +235,21 @@ article {
 }
 
 #contact{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     padding: 10px;
     background-color: rgb(60, 79, 79);
     border-radius: 10px;
 }
-
+#contact h3{
+  
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
 #contact input[type="text"]{
-    width: 30%;
+    width: 100%;
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
@@ -232,14 +257,14 @@ article {
 }
 
 #contact input[type="email"]{
-    width: 30%;
+    width: 100%;
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
     border: none;
 }
 #contact textarea{
-    width: 30%;
+    width: 100%;
     height: 30px;
     padding: 10px;
     margin-top: 5px;
@@ -255,6 +280,34 @@ article {
     color: black;
     font-weight: bold;
     cursor: pointer;
+    width: 100%;
+    margin: 0px 60px 0px 60px;
+}
+#contact button:hover{
+    background-color: rgb(100, 200, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-right p{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.contact-right a{
+    color: white;
+    text-decoration: none;
 }
 
 .fields{
@@ -270,4 +323,12 @@ article {
     display: flex;
     align-items: center;
     margin-right: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: solid 1px rgb(173, 173, 173);
+    color: #b8b8b8;
 }
